@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Перевырка усного рахунку</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <center>
+        <h1>Математичний тест</h1>
+        <hr>
+        <!--80-->
+        <form NAME=test>
+        <table border="0">
+            <tr>
+                <td><input name=i10 type=button value="0-10" onClick="max_value=10"></td>
+                <td><input name=i20 type=button value="0-20" onClick="max_value=20"></td>
+                <td><input name=i100 type=button value="0-100" onClick="max_value=100"></td>
+                <td><input name=i150 type=button value="0-150" onClick="max_value=150"></td>
+                <td><input name=i+ type=button value="+" onClick='set_sign("+")'></td>
+                <td><input name=i- type=button value="-" onClick='set_sign("-")'></td>
+                <td><input name=i* type=button value="*" onClick='set_sign("*")'></td>
+            </tr>
+        </table>
+        <hr>
+        <table border="0">
+            <tr>
+                <td><input name=op1 SIZE=2 maxlength=4></td>
+                <td><input name=s_sign SIZE=1 maxlength=1></td>
+                <td><input name=op2 SIZE=2 maxlength=4></td>
+                <td>=</td>
+                <td><input name=result SIZE=3 maxlength=6></td>
+                <td><input name=award type=button value="?" onClick="main_calc()">
+                <td><input name=r0 value="???">
+            </tr>
+        </table>
+        <hr>
+
+        <table border="2">
+            <tr>
+                <td class="num-1"><input class="num-input" name=b1 type=button value="1" onClick='input_sign("1")'></td>
+                <td class="num-2"><input class="num-input" name=b2 type=button value="2" onClick='input_sign("2")'></td>
+                <td class="num-3"><input class="num-input" name=b3 type=button value="3" onClick='input_sign("3")'></td>
+            </tr>
+            <tr>
+                <td class="num-4"><input class="num-input" name=b4 type=button value="4" onClick='input_sign("4")'></td>
+                <td class="num-5"><input class="num-input" name=b5 type=button value="5" onClick='input_sign("5")'></td>
+                <td class="num-6"><input class="num-input" name=b6 type=button value="6" onClick='input_sign("6")'></td>
+                </tr>
+            <tr>
+                <td class="num-7"><input class="num-input" name=b7 type=button value="7" onClick='input_sign("7")'></td>
+                <td class="num-9"><input class="num-input" name=b8 type=button value="8" onClick='input_sign("8")'></td>
+                <td class="num-9"><input class="num-input" name=b9 type=button value="9" onClick='input_sign("9")'></td>
+            </tr>
+            <tr>
+                <td class="num-0"><input class="num-input" name=b0 type=button value="0" onClick='input_sign("0")'></td>
+                <td colspan=2><input class="enter-input" name=bs type=button value="OK" onClick='input_sign("10")'></td>
+            </tr>
+        </table>
+        </form>
+        </center>
+        <hr>
+    </body>
+    <?php
+        require(" script.php ");
+    ?>
+</html>

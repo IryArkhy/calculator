@@ -1,0 +1,47 @@
+.num-input {
+    background: transparent;
+    border: hidden;
+}
+.enter-input {
+    background-color: rgb(1, 199, 11);
+}
+
+.num-1 {
+    background-color: rgb(240, 235, 161);
+}
+
+.num-2 {
+    background-color: rgb(247, 197, 117);
+}
+
+.num-3 {
+    background-color: rgb(250, 150, 127);
+}
+
+.num-4 {
+    background-color: rgb(191, 255, 148);
+}
+
+.num-5 {
+    background-color: rgb(132, 244, 236);
+}
+
+.num-6 {
+    background-color: rgb(62, 201, 247);
+}
+
+.num-7 {
+    background-color: rgb(97, 129, 235);
+}
+
+.num-8 {
+    background-color: rgb(102, 92, 247);
+}
+
+.num-9 {
+    background-color: rgb(178, 127, 255);
+}
+
+.num-0 {
+    background-color: rgb(239, 135, 253);
+}
