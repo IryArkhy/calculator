@@ -1,9 +1,19 @@
 .num-input {
     background: transparent;
     border: hidden;
+    cursor: pointer;
 }
 .enter-input {
+    cursor: pointer;
     background-color: rgb(1, 199, 11);
+}
+
+.generate-input {
+    cursor: pointer;
+    background-color:rgb(255, 162, 125);
+    border: hidden;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 .num-1 {
