@@ -26,7 +26,7 @@ function set_sign(x) {
 }
 
 //16 Определить первый операнд
-function f_operand () {
+function f_operand() {
     operand1 = Math.floor(Math.random() * max_value);
     return parseInt(operand1);
 }
